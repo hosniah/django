@@ -1,0 +1,1 @@
+[{"model": "musiques.morceau", "pk": 1, "fields": {"titre": "Comfortably Numb", "artiste": "Pink Floyd", "date_sortie": null}}, {"model": "musiques.morceau", "pk": 2, "fields": {"titre": "Space Oddity", "artiste": "David Bowie", "date_sortie": null}}]
