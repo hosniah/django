@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.views.generic import DetailView
+from .models import Morceau
+
 # Create your views here.
 
-def morceau_detail(request, pk):
-  return HttpResponse('OK')
+class MorceauDetailView(DetailView):
+    model = Morceau
